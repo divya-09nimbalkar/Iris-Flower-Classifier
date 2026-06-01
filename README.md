@@ -19,3 +19,17 @@ Classifies Iris flowers into 3 species using 5 ML algorithms with cross-validati
 - Confusion matrix visualization
 - Random Forest feature importance
 - Live prediction for new samples
+
+## How to Run
+```bash
+pip install scikit-learn pandas numpy matplotlib seaborn
+python iris_classifier.py
+```
+
+## Output Files
+- `iris_scatter.png` — feature distribution by species
+- `confusion_matrix.png` — prediction accuracy
+- `feature_importance.png` — which features matter most
+
+---
+**Author:** Divya Nimbalkar | [GitHub](https://github.com/divya-09nimbalkar) | [LinkedIn](https://www.linkedin.com/in/divya-nimbalkar09/)
